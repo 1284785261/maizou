@@ -1,0 +1,89 @@
+ul,li{
+	list-style: none;
+}
+#homes{
+	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+   	background: #fff;
+    z-index: 18;
+    overflow: auto;
+}
+.list-wraps{
+	margin-top: 40px;
+}
+#xx:before{
+	content: '\e659';
+	color: #FF6000;
+	font-size: 14px;
+}
+
+.contentss{
+	height: 50px;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	z-index: 60;
+}
+.contentss input{
+	float: left;
+	text-indent: 1em;
+	margin-top: 10px;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+	width: 300px;
+	height: 30px;
+	outline: none;
+	background: #eee;
+	margin-left: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#home .home-wraps{
+	width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+.list-item{
+	width: 100%;
+}
+.lists2{
+	height: 40px;
+    width: 100%;
+    z-index: 31;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.lists2 li{
+	width: 33.3%;
+	text-align: center;
+	line-height: 40px;
+	background: white;
+	font-size: 14px;
+	color: #666;
+	float: left;
+}
+.back4{
+	display: block;
+	height: 30px;
+	position: absolute;
+	left: 10px;
+	top: 3px;
+	line-height: 30px;
+	font-size: 30px;
+	background: transparent;
+	color: #333;
+}
+.gd{
+	margin-left: 38%;
+	font-size: 14px;
+}
